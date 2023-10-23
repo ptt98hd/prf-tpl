@@ -30,8 +30,9 @@ int isPerfect (int n) {
 }
 
 // FIBONACY
-void fibo (int n) {
-  
+int fibo (int n) {
+  if (n == 1 || n == 2) return (n - 1);
+  return fibo(n - 1) + fibo(n - 2);
 }
 
 int main() {
@@ -45,7 +46,7 @@ int main() {
   printf("\nOUTPUT:\n");
   //@STUDENT: WRITE YOUR OUTPUT HERE:
   
-
+  printf("%d", fibo(n));
 
   //--FIXED PART - DO NOT EDIT ANY THINGS HERE
   printf("\n");
