@@ -29,6 +29,11 @@ int isPerfect (int n) {
   return check;
 }
 
+// FIBONACY
+void fibo (int n) {
+  
+}
+
 int main() {
   system("cls");
   //INPUT - @STUDENT:ADD YOUR CODE FOR INPUT HERE:
