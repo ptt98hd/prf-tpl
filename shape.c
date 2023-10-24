@@ -342,10 +342,14 @@ int main() {
   // Fixed Do not edit anything here.
   printf("\nOUTPUT:\n");
   //@STUDENT: WRITE YOUR OUTPUT HERE:
+
+  printf("Hinh A:\n");
   hinhA(h);
   printf("\n");
+  printf("Hinh B:\n");
   hinhB(h);
   printf("\n");
+  printf("Hinh C:\n");
   hinhC(h);
   printf("\n");
   hinhD(h);
